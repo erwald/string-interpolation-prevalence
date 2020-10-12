@@ -25,6 +25,5 @@ ggplot(prev_by_year, aes(year, string_interp_prevalence, group=1)) +
   geom_line() + 
   ylim(0, 1) + 
   labs(x = "Year", y = "Relative prevalence of string interpolation") + 
-  theme_minimal() +
-  theme(text = element_text(size = 20))
+  theme_minimal()
 
